@@ -1,0 +1,3 @@
+.inquiry-layout{display:grid;grid-template-columns:280px 1fr;gap:28px;margin-bottom:28px}.photo-box{height:280px;border-radius:10px;overflow:hidden;background:#e8f3f6;border:2px solid #d9e6e9}.photo-box img{width:100%;height:100%;object-fit:cover}.pet-info{align-self:center}.pet-info p{margin:8px 0}@media(max-width:650px){.inquiry-layout{grid-template-columns:1fr}.photo-box{height:250px}}
+
+#pet-photo{width:100%;height:360px;object-fit:cover;display:block}

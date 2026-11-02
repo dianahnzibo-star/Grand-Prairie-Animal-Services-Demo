@@ -1,0 +1,1 @@
+document.querySelectorAll('.demo-form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const p=document.createElement('p');p.className='success-message';p.textContent=f.dataset.message;f.replaceWith(p);}));
